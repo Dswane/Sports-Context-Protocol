@@ -1,0 +1,24 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.dswane/scp-golf",
+  "title": "SCP Golf",
+  "description": "The self-learning operational context layer (MCP server) for AI golf agents. Before an agent books, prices, or recommends, it checks SCP. Then SCP learns from what happened.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/Dswane/Sports-Context-Protocol",
+    "source": "github"
+  },
+  "websiteUrl": "https://github.com/Dswane/Sports-Context-Protocol#readme",
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "scp-golf",
+      "version": "0.1.0",
+      "runtimeHint": "npx",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

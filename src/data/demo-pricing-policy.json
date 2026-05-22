@@ -1,0 +1,12 @@
+{
+  "courseId": "demo",
+  "absolutePriceFloor": 45,
+  "rules": [
+    { "id": "morning_public_rate", "label": "Morning public rate", "startTime": "06:30", "endTime": "11:59", "baseRate": 105 },
+    { "id": "midday_public_rate", "label": "Midday public rate", "startTime": "12:00", "endTime": "14:59", "baseRate": 88 },
+    { "id": "twilight_rate", "label": "Twilight rate", "startTime": "15:00", "endTime": "17:30", "baseRate": 55, "maxAutoDiscountPercent": 15 }
+  ],
+  "approvalRules": [
+    { "id": "saturday_morning_discount_requires_approval", "dayOfWeek": "Saturday", "startTime": "06:30", "endTime": "11:59", "effect": "requires_approval" }
+  ]
+}

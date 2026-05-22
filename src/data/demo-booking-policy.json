@@ -1,0 +1,19 @@
+{
+  "courseId": "demo",
+  "softHoldRequired": true,
+  "softHoldMinutes": 10,
+  "maxGroupSize": 4,
+  "publicAgentRules": [
+    { "id": "no_public_member_inventory", "description": "Public agents cannot book protected member inventory.", "effect": "block" },
+    { "id": "no_public_league_blocks", "description": "Public agents cannot book league blocks.", "effect": "block" },
+    { "id": "no_public_outing_blocks", "description": "Public agents cannot book outing blocks.", "effect": "block" }
+  ],
+  "approvalRules": [
+    { "id": "inside_30_minutes_requires_approval", "description": "Bookings inside 30 minutes of tee time require operator approval.", "effect": "requires_approval", "minutesBeforeStart": 30 }
+  ],
+  "golferSafeLanguage": {
+    "protected": "That time is not available for public booking.",
+    "blocked": "That time is not available.",
+    "booked": "That time has already been taken."
+  }
+}

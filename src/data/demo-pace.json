@@ -1,0 +1,10 @@
+{
+  "courseId": "demo",
+  "date": "2026-06-06",
+  "expectedRoundTimeMinutes": 252,
+  "risks": [
+    { "id": "pace_1030_compression", "startTime": "10:30", "endTime": "11:00", "riskLevel": "medium", "reason": "Three booked groups before the league block may create compression." },
+    { "id": "league_block_medium", "startTime": "11:00", "endTime": "11:50", "riskLevel": "medium", "reason": "League block has historically created slower turn times." },
+    { "id": "twilight_low", "startTime": "15:00", "endTime": "17:30", "riskLevel": "low", "reason": "Twilight inventory has lower density." }
+  ]
+}

@@ -1,0 +1,5 @@
+[
+  { "id": "event_member_morning", "type": "member_block", "label": "Member morning block", "startTime": "07:30", "endTime": "08:50", "visibility": "internal" },
+  { "id": "event_league_block", "type": "league_block", "label": "Saturday league block", "startTime": "11:00", "endTime": "11:50", "visibility": "internal" },
+  { "id": "event_corporate_shotgun", "type": "outing", "label": "Corporate shotgun outing", "startTime": "13:00", "endTime": "13:00", "visibility": "internal" }
+]

@@ -1,0 +1,10 @@
+{
+  "courseId": "demo",
+  "date": "2026-06-06",
+  "summary": "Partly cloudy",
+  "temperatureF": 74,
+  "windMph": 8,
+  "morningRainChancePercent": 20,
+  "afternoonRainChancePercent": 45,
+  "operatorNote": "Afternoon rain risk may soften twilight demand."
+}

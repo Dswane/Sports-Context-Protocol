@@ -1,0 +1,36 @@
+{
+  "courseId": "demo",
+  "lessons": [
+    {
+      "id": "lesson_protected_inventory",
+      "type": "booking",
+      "fingerprintKey": "book_tee_time|demo|*|*|*|*|public|*",
+      "text": "Avoid offering protected member times to public agents.",
+      "confidence": 0.95,
+      "evidenceCount": 3,
+      "status": "active"
+    },
+    {
+      "id": "lesson_saturday_around_9",
+      "type": "booking",
+      "fingerprintKey": "book_tee_time|demo|Saturday|morning|0900-0929|group|public|memberblock",
+      "text": "When a golfer asks for Saturday around 9 AM and the member block ends at 08:50, prefer 09:10 or later if available.",
+      "confidence": 0.75,
+      "evidenceCount": 2,
+      "status": "active"
+    },
+    {
+      "id": "lesson_saturday_morning_discount",
+      "type": "pricing",
+      "fingerprintKey": "quote_price|demo|Saturday|morning|*|discount",
+      "text": "Saturday morning discounts require operator approval.",
+      "confidence": 0.9,
+      "evidenceCount": 2,
+      "status": "active"
+    }
+  ],
+  "operatorPreferences": [],
+  "pricingPatterns": [],
+  "pacePatterns": [],
+  "blockedPatterns": []
+}

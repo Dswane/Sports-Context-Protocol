@@ -1,0 +1,40 @@
+{
+  "name": "scp-golf",
+  "version": "0.1.0",
+  "description": "SCP Golf — the self-learning operational context layer (MCP server) for AI golf agents. Before an agent books, prices, or recommends, it checks SCP. Then SCP learns from what happened.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "scp-golf": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').cpSync('src/data','dist/data',{recursive:true})\"",
+    "dev": "node --import tsx src/index.ts",
+    "demo": "node --import tsx scripts/demo.ts",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test --test-concurrency=1 tests/*.test.ts"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "golf",
+    "tee-sheet",
+    "agent",
+    "context-layer",
+    "golf-operations"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "@types/node": "^22.9.0"
+  }
+}

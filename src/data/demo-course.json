@@ -1,0 +1,11 @@
+{
+  "id": "demo",
+  "name": "Harbor Ridge Golf Club",
+  "type": "public_with_member_inventory",
+  "timezone": "America/New_York",
+  "holes": 18,
+  "teeIntervalMinutes": 10,
+  "maxGroupSize": 4,
+  "defaultRoundTimeMinutes": 252,
+  "description": "Synthetic demo course for SCP Golf Alpha. No real course data."
+}
