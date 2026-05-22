@@ -19,12 +19,12 @@ import { registerPrompts } from "./prompts.js";
 
 /** Log only to stderr — stdout is reserved for MCP protocol messages. */
 function log(message: string): void {
-  process.stderr.write(`[scp-golf] ${message}\n`);
+  process.stderr.write(`[sports-context-protocol] ${message}\n`);
 }
 
 async function main(): Promise<void> {
   const server = new McpServer({
-    name: "scp-golf",
+    name: "sports-context-protocol",
     version: "0.1.0",
   });
 
@@ -40,6 +40,6 @@ async function main(): Promise<void> {
 }
 
 main().catch((err) => {
-  process.stderr.write(`[scp-golf] fatal: ${(err as Error).stack ?? err}\n`);
+  process.stderr.write(`[sports-context-protocol] fatal: ${(err as Error).stack ?? err}\n`);
   process.exit(1);
 });

@@ -1,11 +1,11 @@
 {
-  "name": "scp-golf",
+  "name": "sports-context-protocol",
   "version": "0.1.0",
-  "description": "SCP Golf — the self-learning operational context layer (MCP server) for AI golf agents. Before an agent books, prices, or recommends, it checks SCP. Then SCP learns from what happened.",
+  "description": "Sports Context Protocol — the self-learning operational context layer (MCP server) for AI sports agents. Profile 001 is golf. Before an agent books, prices, or recommends, it checks SCP. Then SCP learns from what happened.",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
-    "scp-golf": "dist/index.js"
+    "sports-context-protocol": "dist/index.js"
   },
   "files": [
     "dist/",

@@ -19,8 +19,8 @@ npm run dev
 The server starts on stdio. It logs to stderr only (stdout is the MCP
 protocol channel). You should see:
 ```
-[scp-golf] SCP Golf MCP server running on stdio transport.
-[scp-golf] 9 tools, 11 resources, 4 prompts registered. Course: Harbor Ridge (demo).
+[sports-context-protocol] SCP Golf MCP server running on stdio transport.
+[sports-context-protocol] 9 tools, 11 resources, 4 prompts registered. Course: Harbor Ridge (demo).
 ```
 
 ## Test with the MCP Inspector
