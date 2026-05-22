@@ -14,7 +14,7 @@ Blocks: member inventory 07:30-08:50; booked groups 10:30/10:40/10:50; league
 block 11:00-11:50; corporate outing 13:00; open twilight 15:00-17:30.
 
 ## Resources (read-only context)
-`scp-golf://course/demo` plus `context`, `tee-sheet`, `booking-policy`,
+`scp://course/demo` plus `context`, `tee-sheet`, `booking-policy`,
 `pricing-policy`, `events`, `weather`, `pace`, `decision-ledger`,
 `learning-memory`, `soft-holds`. Each returns JSON. `context` is the assembled
 full operating picture and is what an agent should read first.

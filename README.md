@@ -84,7 +84,7 @@ npx @modelcontextprotocol/inspector npm run dev
 
 ## The resources
 
-`scp-golf://course/demo` and its children: `context`, `tee-sheet`,
+`scp://course/demo` and its children: `context`, `tee-sheet`,
 `booking-policy`, `pricing-policy`, `events`, `weather`, `pace`,
 `decision-ledger`, `learning-memory`, `soft-holds`.
 
