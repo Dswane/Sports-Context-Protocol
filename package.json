@@ -1,7 +1,7 @@
 {
   "name": "sports-context-protocol",
   "mcpName": "io.github.dswane/sports-context-protocol",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Sports Context Protocol — the self-learning operational context layer (MCP server) for AI sports agents. Profile 001 is golf. Before an agent books, prices, or recommends, it checks SCP. Then SCP learns from what happened.",
   "type": "module",
   "main": "dist/index.js",
