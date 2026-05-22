@@ -1,8 +1,8 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.dswane/sports-context-protocol",
+  "name": "io.github.Dswane/sports-context-protocol",
   "title": "Sports Context Protocol",
-  "description": "The self-learning operational context layer (MCP server) for AI sports agents. Profile 001 is golf. Before an agent books, prices, or recommends, it checks SCP. Then SCP learns from what happened.",
+  "description": "Self-learning operational context layer for AI sports agents. Profile 001: golf.",
   "version": "0.1.0",
   "repository": {
     "url": "https://github.com/Dswane/Sports-Context-Protocol",
